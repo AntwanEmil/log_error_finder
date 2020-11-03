@@ -17,7 +17,7 @@ def error_search(log_file):
     file.close()
   return returned_errors
 
-#yeah this is for linux users only lol  
+#yeah this is for linux users only lol  ..
 def file_output(returned_errors):
   with open(os.path.expanduser('~') + '/data/errors_found.log', 'w') as file:
     for error in returned_errors:
